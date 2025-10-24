@@ -1,0 +1,262 @@
+/* lexend-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/lexend-v26-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lexend-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lexend-v26-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lexend-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/lexend-v26-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lexend-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/lexend-v26-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1404px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+body {
+  font-family: Lexend;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  color: #2c2c2c;
+}
+
+.btn {
+  border: 1px solid #2c2c2c;
+  border-radius: 38px;
+  padding: 8px 20px;
+}
+
+/* HEADER START */
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-logo {
+}
+.site-logo-image {
+}
+.site-nav {
+}
+.site-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.site-nav-list-item:hover::after {
+  width: 100%;
+}
+
+.site-nav-link {
+  color: #2c2c2c;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.site-nav-link:hover {
+  opacity: 0.7;
+}
+
+.letsgo-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  text-transform: uppercase;
+  color: #2c2c2c;
+  transition: 0.25s;
+}
+
+.letsgo-btn:hover {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+.letsgo-btn:hover svg path {
+  fill: white;
+}
+
+/* HEADER END */
+
+/* HERO START */
+.hero {
+  margin-bottom: 120px;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-subtitle {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 148px;
+  line-height: 125%;
+  letter-spacing: -4%;
+  text-transform: uppercase;
+}
+.hero-video-wrapper {
+  width: 100%;
+  border-radius: 48px;
+  overflow: hidden;
+}
+
+.hero-video-wrapper iframe {
+  width: 100%;
+  height: 560px;
+}
+/* HERO END */
+
+/* CATIGORIES START */
+.catigories {
+  margin-bottom: 120px;
+}
+.catigories-container {
+  display: flex;
+  justify-content: space-between;
+}
+.catigories-content {
+}
+.catigories-title {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.catigories-desc {
+  max-width: 456px;
+  color: #7a7a7a;
+}
+.catigories-list {
+  width: 548px;
+}
+
+.catigories-list-item {
+  transition: 0.3s;
+}
+
+.catigories-list-item:hover {
+  transform: scale(1.05);
+}
+
+.catigories-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #cbcbcb;
+  font-weight: 500;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* CATIGORIES END */
+
+/* TRAINING START */
+.training {
+}
+.container {
+}
+.training-container {
+}
+.traing-title {
+  max-width: 506px;
+
+  font-weight: 500;
+  font-size: 48px;
+  letter-spacing: -4%;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.training-cards-wrapper {
+}
+.training-card-left {
+}
+.training-card {
+}
+.fa-regular {
+}
+.fa-clock {
+}
+.training-card-title {
+}
+.training-card-desc {
+}
+.fa-solid {
+}
+.fa-bolt {
+}
+.training-card-right {
+}
+.fa-heart {
+}
+.fa-dumbbell {
+}
+/* TRAINING END */
